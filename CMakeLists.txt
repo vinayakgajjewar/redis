@@ -26,3 +26,11 @@ add_executable(06-client
 add_executable(06-server
         06-event-loop/server.cpp
 )
+
+add_executable(07-client
+        07-key-value-server/client.cpp
+)
+
+add_executable(07-server
+        07-key-value-server/server.cpp
+)
